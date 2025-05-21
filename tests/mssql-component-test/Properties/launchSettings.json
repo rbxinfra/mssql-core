@@ -1,0 +1,13 @@
+{
+    "profiles": {
+        "Roblox.Mssql.Component.Test": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "launchUrl": "query",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "applicationUrl": "https://0.0.0.0:58113;http://0.0.0.0:58114"
+        }
+    }
+}

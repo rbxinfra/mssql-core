@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Library that provides simplistic access to MSSQL database connection strings and time out settings.</Description>
+
+    <Version>1.2.4</Version>
+  </PropertyGroup>
+    
+  <ItemGroup>
+    <ProjectReference Include="..\mssql\Roblox.Mssql.csproj" />
+
+    <PackageReference Include="Roblox.Configuration" Version="1.2.4" />
+  </ItemGroup>
+
+</Project>
