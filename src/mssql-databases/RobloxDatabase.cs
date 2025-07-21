@@ -52,7 +52,7 @@ public enum RobloxDatabase
 
     /// <summary>
     /// The Roblox Leased Locks database.
-    /// </summary
+    /// </summary>
     RobloxLeasedLocks,
 
     /// <summary>
