@@ -51,6 +51,11 @@ public enum RobloxDatabase
     RobloxMacAddresses,
 
     /// <summary>
+    /// The Roblox Leased Locks database.
+    /// </summary>
+    RobloxLeasedLocks,
+
+    /// <summary>
     /// Test database.
     /// </summary>
     TestDatabase

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>Library that provides simplistic access to MSSQL database connection strings and time out settings.</Description>
 
-    <Version>1.2.4</Version>
+    <Version>1.2.5</Version>
   </PropertyGroup>
     
   <ItemGroup>

@@ -53,6 +53,12 @@ public class DatabaseConnectionStrings : BaseSettingsProvider<DatabaseConnection
     public string RobloxMacAddresses => GetOrDefault($"{nameof(RobloxMacAddresses)}ConnectionString", string.Empty);
 
     /// <summary>
+    /// Gets the connection string for the RobloxLeasedLocks database.
+    /// </summary>
+    [SettingName($"{nameof(RobloxLeasedLocks)}ConnectionString")]
+    public string RobloxLeasedLocks => GetOrDefault($"{nameof(RobloxLeasedLocks)}ConnectionString", string.Empty);
+
+    /// <summary>
     /// Gets the connection string for the TestDatabase database.
     /// </summary>
     [SettingName($"{nameof(TestDatabase)}ConnectionString")]
