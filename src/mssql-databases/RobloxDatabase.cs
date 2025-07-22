@@ -56,6 +56,11 @@ public enum RobloxDatabase
     RobloxLeasedLocks,
 
     /// <summary>
+    /// The Roblox Nonces database.
+    /// </summary>
+    RobloxNonces,
+
+    /// <summary>
     /// Test database.
     /// </summary>
     TestDatabase
