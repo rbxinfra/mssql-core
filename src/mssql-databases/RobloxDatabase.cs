@@ -61,6 +61,11 @@ public enum RobloxDatabase
     RobloxNonces,
 
     /// <summary>
+    /// The Roblox System Events databse
+    /// </summary>
+    RobloxSystemEvents,
+
+    /// <summary>
     /// Test database.
     /// </summary>
     TestDatabase

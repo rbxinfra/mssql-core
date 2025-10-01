@@ -65,6 +65,12 @@ public class DatabaseConnectionStrings : BaseSettingsProvider<DatabaseConnection
     public string RobloxNonces => GetOrDefault($"{nameof(RobloxNonces)}ConnectionString", string.Empty);
 
     /// <summary>
+    /// Gets the connection string for the RobloxSystemEvents database.
+    /// </summary>
+    [SettingName($"{nameof(RobloxSystemEvents)}ConnectionString")]
+    public string RobloxSystemEvents => GetOrDefault($"{nameof(RobloxSystemEvents)}ConnectionString", string.Empty);
+
+    /// <summary>
     /// Gets the connection string for the TestDatabase database.
     /// </summary>
     [SettingName($"{nameof(TestDatabase)}ConnectionString")]
